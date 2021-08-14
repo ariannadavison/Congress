@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+.billblock {
+  display: block;
+  border: gray solid 1pt;
+  box-shadow: 2px 2px 2px rgb(82, 81, 81);
+  margin: 10px;
+  padding: 5px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: darkolivegreen;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.billblock:hover {
+  box-shadow: 4px 4px 2px rgb(82, 81, 81);
+}
+.billblock:active {
+  border-style: inset;
+  border-color: blue;
+  box-shadow: 4px 4px 2px rgb(146, 146, 146);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details {
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.billDetails {
+  margin: 30px;
 }

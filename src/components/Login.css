@@ -1,0 +1,90 @@
+.message {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14pt;
+}
+
+#fail {
+  color: red;
+}
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  font-family: sans-serif;
+  color: rgb(100, 99, 99);
+  margin-bottom: 40px;
+}
+form {
+  /* box-shadow: -6px 6px 4px rgb(25, 66, 75); */
+  border-style: solid;
+  border: rgba(148, 124, 17, 0.808) solid 1px;
+  /* border-width:2pt; */
+  height: 320px;
+  display: block;
+  width: 300px;
+  padding: 20px;
+
+  /* border-color: rgba(156, 146, 100, 0.808); */
+  background-color: rgb(219, 219, 219);
+  border-width: 2pt;
+}
+#container {
+  width: 80vw;
+  height: 90vh;
+  /* background-color: rgba(28, 120, 241, 0.308); */
+  /* background-image: linear-gradient( rgba(28, 120, 241, 0.308), rgba(149, 188, 238, 0.308)); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+input {
+  display: block;
+  margin: 20px;
+  width: 75%;
+  height: 40px;
+}
+button {
+  display:block;
+  width: 100px;
+  height: 36px;
+  margin: 10px;
+  margin-top: 12px;
+  /* background-image: linear-gradient(
+    rgba(181, 187, 194, 0.685),
+    rgba(143, 111, 22, 0.425)
+  ); */
+
+  box-shadow: -1px 1px 2px rgba(14, 11, 20, 0.644);
+}
+
+#signup {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  border-left: solid gray;
+}
+#block {
+  display: block;
+  color: rgb(119, 90, 9);
+  font-size: 24pt;
+  line-height: 72pt;
+}
+
+header {
+  width: 98%;
+  font-size: 36pt;
+  font-family: monospace;
+  height: 16vh;
+  align-self: start;
+  padding: 20px;
+  margin-top: auto;
+  text-align: left;
+  line-height: 16vh;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: fixed;
+}
+
+.message {
+  display: block;
+}
