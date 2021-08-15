@@ -40,7 +40,7 @@ function App() {
             <Login setUserID={setUserID} usernameVal={usernameVal} passwordVal={passwordVal} setPasswordVal={setPasswordVal} setUsernameVal={setUsernameVal} /></Route>
           <Route path='/createlogin' component={CreateUser} />
           <Route path='/history'>
-            <UserHistory userID={userID} />
+            <UserHistory userID={userID} billID={billID} congress={congress} />
           </Route>
         </Switch>
 
